@@ -3,7 +3,7 @@ int productOfDigits(int n){
     while(n!=0){
     int d = n%10;
     prod*= d;
-    n/=10; // seperating each digits
+    n/=10; // seprating each digits
   }
   return prod;
 
